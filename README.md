@@ -9,6 +9,5 @@ You can install the latest development version of the code using the [devtools](
 # Install devtools, if you haven't already.
 install.packages("devtools")
 library(devtools)
-install_github("anspiess/propagate")
-source("https://install-github.me/anspiess/propagate")
+install_github("ProfessorPeregrine/propagate")
 ```
