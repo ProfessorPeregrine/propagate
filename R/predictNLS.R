@@ -63,7 +63,7 @@ predictNLS <- function(
   }
   
   for (i in 1:NR) {
-    message("predictNLS: ", paste0("Propagating predictor value #", i, "..."))
+    #message("predictNLS: ", paste0("Propagating predictor value #", i, "..."))
     tempDATA <- newdata[i, , drop = FALSE]
     errorDATA <- newerror[i, , drop = FALSE]
     
