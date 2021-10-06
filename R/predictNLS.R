@@ -10,7 +10,7 @@ predictNLS <- function(
   interval <- match.arg(interval)
   
   ## get right-hand side of formula
-  RHS <- as.list(eval(model$m$formula))[[3]]
+  RHS <- as.list(eval(model$m$formula()))[[3]]
   EXPR <- as.expression(RHS)
   
   ## all variables in model
