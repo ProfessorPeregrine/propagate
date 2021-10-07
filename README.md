@@ -2,7 +2,7 @@
 
 *propagate* is an R package that can conduct uncertainty propagation based on first- and second-order Taylor expansion as well as Monte Carlo simulation. It also houses functionality to estimate confidence and prediction intervals for nonlinear models, create large correlation matrices and automatic distribution fitting.
 
-This is a minor fork to allow propagate to be used with Shiny apps.
+This is a minor fork to allow *propagate* to be used with Shiny apps.
 
 #### Installation
 You can install the latest development version of the code using the [devtools](https://cran.r-project.org/package=devtools) R package.
